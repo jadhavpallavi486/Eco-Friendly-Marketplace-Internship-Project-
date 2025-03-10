@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - E-co Friendly Marketplace</title>
+    <link rel="stylesheet" href="about_styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('backimg2.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: #fdfafa; /* Text color */
+        }
+
+        header {
+            background-color: #222222; /* Darker header background */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            height: 100px; /* Adjusted height */
+            width: auto; /* Adjust the width according to your logo */
+        }
+
+        header h1 {
+            margin: 0;
+            color: #ffffff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f4f2f2;
+        }
+
+        .about-section {
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .about-section h2 {
+            font-size: 3em;
+            margin: 0;
+            color: #130909;
+        }
+
+        .about-section p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #110606;
+        }
+
+        .about-section form {
+            margin-top: 20px;
+        }
+
+        .about-section label,
+        .about-section input[type="submit"] {
+            color: #222222; /* Dark text color */
+        }
+
+        .about-section select {
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+            color: #222222; /* Dark text color */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url('arrow-down.png');
+            background-repeat: no-repeat;
+            background-position: right 15px center;
+            background-size: 15px;
+        }
+
+        .about-section input[type="submit"] {
+            background-color: #28a745; /* Green button color */
+            transition: background-color 0.3s ease;
+        }
+
+        .about-section input[type="submit"]:hover {
+            background-color: #218838; /* Darker green color on hover */
+        }
+
+        .quotes {
+            margin-top: 50px;
+            color: #120a0aeb;
+        }
+
+        .quotes p {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-bottom: 10px;
+            color: #090808; /* Text color */
+        }
+
+        footer {
+            background-color: #222222; /* Darker footer background */
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Eco-Friendly Logo">
+        <h1>E-co Friendly Marketplace</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about-section">
+        <h2>About E-co Friendly Marketplace</h2>
+        <p>Welcome to E-co Friendly Marketplace, your destination for eco-friendly and sustainable products. We are dedicated to offering a wide range of products that align with environmental values, promoting a greener lifestyle.</p>
+        <form action="#">
+            <label for="category">Select Category:</label>
+            <select name="category" id="category">
+                <option value="clothing">Clothing</option>
+                <option value="home">Home & Kitchen</option>
+                <option value="beauty">Beauty & Personal Care</option>
+                <option value="electronics">Electronics</option>
+                <!-- Add more options as needed -->
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="quotes">
+            <p>"The greatest threat to our planet is the belief that someone else will save it." - Robert Swan</p>
+            <p>"We do not inherit the earth from our ancestors, we borrow it from our children." - Native American Proverb</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 E-co Friendly Marketplace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
